@@ -1,0 +1,40 @@
+.navigation{
+    width:100%;
+    margin:0;
+    padding:0;
+    height: 230px;
+    background: rgba(0,0,0,0.4);
+    text-align:center;
+    color: white;
+    
+}
+.heading {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.navigation button{
+    border: none;
+    outline: none;
+    background: rgba(0,0,0,0.2);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    /*margin: 10px;*/
+}
+
+  
+.navigation button:active{
+        background: white;
+        color: black;
+    }
+    
+@media (hover: hover) { 
+    
+    .navigation button:hover{
+        background: white;
+        color: black;
+    }
+}
